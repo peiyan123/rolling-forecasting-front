@@ -1,0 +1,74 @@
+.editable-cell-value-wrap {
+  width: 60%;
+  display: inline;
+}
+
+.ant-table-cell {
+  padding: 0px !important;
+  height: 50px;
+  border: 1px;
+  text-align: right;
+}
+.ant-table-cell >span{
+  width: 55px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.ant-table-thead >tr>th{
+  text-align: center !important;
+}
+.can-editable {
+  border: 1px #c1c1c1 solid;
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  text-align: right;
+}
+.hardwareincom-title {
+  margin-left: 11px;
+    margin-top: -20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: crimson;
+}
+.departName-cell {
+  background: #eeebeb;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+}
+.departName-cell-left {
+  background: #eeebeb;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.totalManHour-cell {
+  text-align: center;
+}
+.input-contant {
+  margin: 0 auto !important;
+}
+.operation-cell {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.operation-cell:hover {
+  background-color: #fafafa
+}
+.del-cell {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.del-cell:hover {
+  background-color: #fafafa
+}
+.one-cell {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  line-height: 50px;
+}

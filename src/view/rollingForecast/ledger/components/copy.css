@@ -1,0 +1,38 @@
+ /* 为解决设置样式抖动而设置 */
+ .next-table td .next-table-cell-wrapper {
+    border: 1px solid transparent;
+   }
+  [brush-border-top="true"] {
+    border-top: 1px solid #ada6a6 !important;
+  }
+  [brush-border-right="true"] {
+    border-right: 1px solid #ada6a6 !important;
+  }
+  [brush-border-left="true"] {
+    border-left: 1px solid #ada6a6 !important;
+  }
+  [brush-border-bottom="true"] {
+    border-bottom: 1px solid #ada6a6 !important;
+  }
+  [data-brush="true"] {
+    background-color: #f5f5f5 !important;
+  }
+  
+  .next-table-row:hover {
+    background-color: transparent !important;
+}
+
+
+.ant-table-cell-row-hover {
+    background: transparent;
+  }
+
+  .ant-table-wrapper .ant-table .ant-table-tbody > tr.ant-table-row:hover > td,
+  .ant-table-wrapper .ant-table .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+    background: transparent;
+  }
+  .ant-table-cell div{
+  }
+  .can-editable {
+    width: 65%;
+  }
